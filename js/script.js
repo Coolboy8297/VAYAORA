@@ -180,9 +180,4 @@
       playBtn.click();
     }
   });
-
-  // ── Startup animation ───────────────────────────────────
-  window.addEventListener("load", () => {
-    document.body.classList.add("loaded");
-  });
 })();
